@@ -1,0 +1,32 @@
+Origin	Airline	Flight no.	Scheduled	Est./Actual	Status
+Dublin (DUB)	Ryanair	FR6395	20:40	20:24	Landed
+Palma Mallorca (PMI)	Vueling	VY3911	20:40	20:22	Landed
+Skopje (SKP)	Wizz Air	W67737	20:40		En-Route
+Malaga (AGP)	Vueling	VY2112	21:00	20:48	Landed
+Bilbao (BIO)	Vueling	VY1423	21:00	20:36	Landed
+Craiova (CRA)	Wizz Air	W63757	21:05		Scheduled
+Palma Mallorca (PMI)	Ryanair	FR6369	21:05	20:44	Landed
+Sofia (SOF)	Wizz Air	W64405	21:05		En-Route
+Bucharest (OTP)	Wizz Air	W63175	21:15	20:52	Landed
+Timisoara (TSR)	Wizz Air	W63563	21:20		Landed
+Varna (VAR)	Wizz Air	W64527	21:20		Unknown
+Moscow (DME)	S7 Airlines	S73663	21:25		Cancelled
+Mexico City (MEX)	Emirates	EK256	21:39	21:56	Departed Late
+Paris (ORY)	Vueling	VY8021	21:45	21:20	En-Route
+Las Palmas (LPA)	Ryanair	FR6371	22:25	22:09	En-Route
+Menorca (MAH)	Vueling	VY3719	22:25	21:48	Landed
+Reykjavik (KEF)	Vueling	VY8561	22:30	22:04	Landed
+Palma Mallorca (PMI)	Vueling	VY3919	22:40		Scheduled
+Paris (CDG)	Air France	AF1448	22:55		En-Route
+Amsterdam (AMS)	KLM	KL1681	23:05		En-Route
+Ibiza (IBZ)	Vueling	VY3519	23:10		Scheduled
+Paris (ORY)	Vueling	VY8023	23:10		Scheduled
+Rome (FCO)	Vueling	VY6107	23:20		Scheduled
+Vigo (VGO)	Vueling	VY1705	23:20		Scheduled
+Rome (FCO)	Alitalia	AZ94	23:25		Unknown
+La Coruna (LCG)	Vueling	VY1295	23:35	23:19	Landed
+Las Palmas (LPA)	Vueling	VY3007	23:35	23:34	Landed
+Madrid (MAD)	Vueling	VY1019	23:35		Scheduled
+Santiago De Compostela (SCQ)	Vueling	VY1676	23:35		Scheduled
+Puerto del Rosario (FUE)	Ryanair	FR6303	23:55	23:50	Landed
+Porto (OPO)	Ryanair	FR4596	23:55	23:30	Landed

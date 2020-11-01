@@ -1,0 +1,9 @@
+Origin	Airline	Flight no.	Scheduled	Est./Actual	Status
+Almeria (LEI)	Iberia	IB8302	20:45	20:12	Landed
+Brussels (CRL)	Ryanair	FR6444	21:00	21:43	Departed Late
+Palma Mallorca (PMI)	Vueling	VY3938	21:25	21:04	Landed
+Barcelona (BCN)	Vueling	VY2208	22:00		En-Route
+Palma Mallorca (PMI)	Ryanair	FR5273	22:00	21:41	En-Route
+Marseille (MRS)	Ryanair	FR5187	22:55		En-Route
+Paris (ORY)	Vueling	VY6951	23:00	22:39	En-Route
+Las Palmas (LPA)	Ryanair	FR7723	23:15	22:56	Landed

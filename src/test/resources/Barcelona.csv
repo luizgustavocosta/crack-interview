@@ -1,0 +1,29 @@
+Destination	Airline	Flight no.	Scheduled	Est./Actual	Status
+Santander (SDR)	Ryanair	FR6384	20:30	20:30	En-Route
+Asturias (OVD)	Vueling	VY1571	20:30	20:30	En-Route
+Granada (GRX)	Vueling	VY2016	20:30	20:30	En-Route
+Krakow (KRK)	Ryanair	FR3035	20:35	20:44	Landed
+Madrid (MAD)	Air Europa	UX7708	20:35	20:35	En-Route
+Liverpool (LPL)	Ryanair	FR9145	20:40	20:40	En-Route
+Ibiza (IBZ)	Vueling	VY3518	20:40	20:40	En-Route
+Paris (ORY)	Transavia France	TO3239	20:45	20:45	En-Route
+Paris (ORY)	Vueling	VY8026	20:45	20:45	En-Route
+Las Palmas (LPA)	Vueling	VY3000	20:55	20:55	En-Route
+Palma de Mallorca (PMI)	Air Europa	UX6103	21:00	21:00	En-Route
+Lisbon (LIS)	TAP Portugal	TP1045	21:10		Scheduled
+Dublin (DUB)	Ryanair	FR6394	21:15		Scheduled
+Skopje (SKP)	Wizz Air	W67738	21:15		Scheduled
+Palma de Mallorca (PMI)	Ryanair	FR6368	21:40		Scheduled
+Craiova (CRA)	Wizz Air	W63758	21:40		Scheduled
+Sofia (SOF)	Wizz Air	W64406	21:45		Scheduled
+Bilbao (BIO)	Vueling	VY1424	21:45		Scheduled
+Malaga (AGP)	Vueling	VY2113	21:45		Scheduled
+Bucharest (OTP)	Wizz Air	W63176	21:50		Scheduled
+Timisoara (TSR)	Wizz Air	W63564	21:55		Unknown
+Varna (VAR)	Wizz Air	W64528	21:55		Unknown
+Madrid (MAD)	Air Europa	UX7994	8:0		En-Route
+Palma de Mallorca (PMI)	Air Europa	UX6007	9:40	09:36	Landed
+Palma de Mallorca (PMI)	Air Europa	UX6037	12:55	13:04	Landed
+Palma de Mallorca (PMI)	Air Europa	UX6073	17:45	17:45	Landed
+Madrid (MAD)	Air Europa	UX7708	20:35	20:35	En-Route
+Palma de Mallorca (PMI)	Air Europa	UX6103	21:0	21:00	En-Route

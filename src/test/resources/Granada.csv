@@ -1,0 +1,12 @@
+Origin	Airline	Flight no.	Scheduled	Est./Actual	Status
+Madrid (MAD)	Iberia	IB8930	08:55	08:36	Landed
+Palma Mallorca (PMI)	Vueling	VY3931	09:00	08:38	Landed
+Barcelona (BCN)	Vueling	VY2010	09:05		Cancelled
+Palma Mallorca (PMI)	Air Europa	UX5201	11:55	11:28	Landed
+Barcelona (BCN)	Vueling	VY2012	12:00	11:34	Landed
+Melilla (MLN)	Iberia	IB8253	12:40	13:35	Landed Late
+Palma Mallorca (PMI)	Vueling	VY3933	13:05	12:30	Landed
+Madrid (MAD)	Iberia	IB8934	17:05	16:50	Landed
+Barcelona (BCN)	Vueling	VY2014	17:10	16:49	Landed
+Tenerife (TFN)	Vueling	VY3116	19:45	19:23	Landed
+Barcelona (BCN)	Vueling	VY2016	22:00		En-Route
