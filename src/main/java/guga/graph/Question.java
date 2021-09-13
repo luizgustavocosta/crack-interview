@@ -13,7 +13,7 @@ public class Question {
         Graph graph = createNewGraph();
         Node[] nodes = graph.getNodes();
         Node start = nodes[0]; //NAV
-        Node end = nodes[5]; // GRU
+        Node end = nodes[4]; // GRU
 //        Node end = nodes[7]; // GRU
         final List<String> route = search(graph, start, end);
         System.out.println("Has route from .: "+start +", to.: "+ end+" ?");
@@ -28,32 +28,40 @@ public class Question {
         final int numberOfNodes = 8;
         Graph graph = new Graph(numberOfNodes);
         Node[] temp = new Node[numberOfNodes];
-
+        //
+        //
+        //        BSB > GRU        BCN
+        //  CHG > NAV > SDU > GRU >
+        //        SJP > GRU        MCO
+        //
+        //
         temp[0] = new Node("CGH", 3);
-        temp[1] = new Node("SJP", 1);
-        temp[2] = new Node("BSB", 0);
-        temp[3] = new Node("NAV", 1);
+        temp[1] = new Node("BSB", 1);
+        temp[2] = new Node("NAV", 1);
+        temp[3] = new Node("SJP", 1);
         temp[4] = new Node("SDU", 1);
-        temp[5] = new Node("GRU", 0);
-        temp[6] = new Node("MCU", 0);
-        temp[7] = new Node("BCN", 0);
+        temp[5] = new Node("GRU", 2);
+        temp[6] = new Node("BCN", 0);
+        temp[7] = new Node("MCO", 0);
 
         temp[0].addAdjacent(temp[1]); // CGH -> SJP
         temp[0].addAdjacent(temp[2]); // CGH -> BSB
         temp[0].addAdjacent(temp[3]); // CGH -> NAV
 
-        temp[3].addAdjacent(temp[4]); // NAV -> SDU
+        temp[2].addAdjacent(temp[4]);
 
-        temp[4].addAdjacent(temp[5]); // SDU -> GRU
+        temp[3].addAdjacent(temp[5]);
 
-        temp[1].addAdjacent(temp[7]); // SDU -> GRU
+        temp[4].addAdjacent(temp[5]);
+
+        temp[1].addAdjacent(temp[5]);
+
+        temp[5].addAdjacent(temp[6]);
+        temp[5].addAdjacent(temp[7]);
 
         for (Node node : temp) {
             graph.addNode(node);
         }
-//        for (int i = 0; i < 6; i++) {
-//            graph.addNode(temp[i]);
-//        }
         return graph;
     }
 
@@ -75,10 +83,13 @@ public class Question {
 
         List<String> completeRoute = new ArrayList<>();
 
+        // Store the same level
+        // Remove all unless the element
+
         while (!queue.isEmpty()) {
             element = queue.removeFirst();
 
-            completeRoute.add(element.toString());
+            completeRoute.add(element.vertex());
 
             if (nonNull(element)) {
                 for (Node adjacent : element.getAdjacent()) {

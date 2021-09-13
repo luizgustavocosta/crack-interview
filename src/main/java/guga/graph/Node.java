@@ -1,7 +1,5 @@
 package guga.graph;
 
-import java.util.Arrays;
-
 class Node {
     private Node adjacent[];
     public int adjacentCount;
@@ -24,12 +22,13 @@ class Node {
     public Node[] getAdjacent() {
         return adjacent;
     }
-    public String getVertex() {
-        return vertex;
-    }
 
     @Override
     public String toString() {
+        return vertex;
+    }
+
+    public String vertex() {
         return vertex;
     }
 }

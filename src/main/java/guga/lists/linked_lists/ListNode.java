@@ -13,12 +13,17 @@ public class ListNode {
         return data;
     }
 
-    public void next(ListNode listNode) {
+    public ListNode next(ListNode listNode) {
         this.next = listNode;
+        return this;
     }
 
     public ListNode next() {
         return next;
     }
 
+    @Override
+    public String toString() {
+        return ""+ data;
+    }
 }
